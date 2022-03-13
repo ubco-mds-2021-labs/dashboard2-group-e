@@ -25,10 +25,13 @@ app <- Dash$new(external_stylesheets = dbcThemes$BOOTSTRAP)
 img <- readImage('assets/logo_flipped.png')
 logo <- plot_ly(type="image", z=img*255)
 
-logo <- logo %>% layout(margin=list(l=10, r=10, b=0, t=0),
+logo <- logo %>% layout(margin=list(l=0, r=0, b=0, t=0),
                         width = 600, height = 200,
                         xaxis=list(showticklabels=FALSE, ticks=""),
                         yaxis=list(showticklabels=FALSE, ticks=""))
+
+logo <- logo %>% layout(plot_bgcolor='#f9f8eb') %>% 
+  layout(paper_bgcolor='#f9f8eb')
 
 #########################################################
 ########## Layout with components of all plots###########
@@ -125,7 +128,7 @@ app$layout(
       
       
     )
-    ), style = list('max-width' = '100%', 'colour'='#f9f8eb')
+    ), style = list('max-width' = '100%', 'colour'='#f9f8eb', backgroundColor='#f9f8eb')
   )
 )
 
@@ -238,6 +241,10 @@ app$callback(
                           xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
                           yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
     
+    fig <- fig %>% layout(plot_bgcolor='#f9f8eb') %>% 
+      layout(paper_bgcolor='#f9f8eb')
+    
+    
     fig
   }
 )
@@ -307,4 +314,3 @@ app$callback(
 
 # Run server
 app$run_server(debug = T)
-# app %>% run_app()
