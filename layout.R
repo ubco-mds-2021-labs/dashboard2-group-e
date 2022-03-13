@@ -7,7 +7,7 @@ library(reshape2)
 library(dplyr)
 
 # Read data
-df <- read.csv("Superstore.csv")
+df <- read.csv("data/Superstore.csv")
 
 # Data Wrangling
 df_plot1 <- df
