@@ -1,0 +1,9 @@
+{
+  "name": "Superstore Sales Dashboard in R deployment",
+  "description": "The dashboard aims to track the sales, profit and profit margin for all the American Superstore stores across the United States",
+  "keywords": [
+    "heroku",
+    "R deployment",
+    "Dash R"
+],
+}
