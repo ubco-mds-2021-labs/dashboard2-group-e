@@ -1,4 +1,5 @@
 library(dash)
+library(dashHtmlComponents)
 library(dashBootstrapComponents)
 library(plotly)
 library(reshape2)
