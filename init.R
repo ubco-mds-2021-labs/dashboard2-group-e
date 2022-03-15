@@ -19,5 +19,4 @@ install.packages("reshape2")
 install.packages("dplyr")
 install.packages("usmap")
 install.packages("ggplot2")
-install.packages("dashHtmlComponents")
 
