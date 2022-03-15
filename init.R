@@ -20,4 +20,4 @@ install.packages("dplyr")
 install.packages("usmap")
 install.packages("ggplot2")
 install.packages("dashHtmlComponents")
-install.packages("dashBootstrapComponents")
+
