@@ -2,15 +2,9 @@
 
 **Please adjust zoom of your screen to 50% to see all dropdowns properly**  
 
-Links to the deployed app: 
-    
-Justine -     
-    
-Mehul -  
+Link to the deployed app: 
    
-Val -    
-     
-Evelyn - 
+[OUR APP](https://the-superstore-dash.herokuapp.com/) 
 
 ## Introduction    
 
