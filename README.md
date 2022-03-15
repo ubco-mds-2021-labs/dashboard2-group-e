@@ -75,8 +75,7 @@ The dataset contains details for the orders of a supermarket chain in the United
 We are thankful and appreciate your efforts and thoughts in contributing to our dashboard. We are willing to get suggestions and advice to brush up on its functionality, efficiency, interactivity, or usage. Your skills and expertise will be a great addition to our dashboard. This is a simple guide to help you understand our dashboard in depth and how it works.     
 - **Installation:**  
     - Clone the project’s GitHub repository.     
-    - Download and install required dependencies (check `requirements.txt` file in the repository for a list of dependencies).     
-    - Open a terminal in the project directory and use the command `python app.py`.    
+    - Open a terminal in the project directory and use the command `R app.R`.    
     - Navigate to the localhost:8050 in your web browser to view the working dashboard.       
       
 - **Useful Links:**   
